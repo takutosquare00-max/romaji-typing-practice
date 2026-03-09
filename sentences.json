@@ -1,0 +1,618 @@
+[
+  {
+    "ja": "私は 毎朝7時に 起きます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby>7<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます",
+    "romaji": "watashiha   maiasa shichiji ni   okimasu"
+  },
+  {
+    "ja": "毎晩 11時に 寝ます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "<ruby>毎晩<rt>まいばん</rt></ruby> 11<ruby>時<rt>じ</rt></ruby>に <ruby>寝<rt>ね</rt></ruby>ます",
+    "romaji": "maiban  juuichiji ni   nemasu"
+  },
+  {
+    "ja": "朝ごはんを 食べます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "<ruby>朝<rt>あさ</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べます",
+    "romaji": "asagohanwo   tabemasu"
+  },
+  {
+    "ja": "コーヒーを 飲みます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "コーヒーを <ruby>飲<rt>の</rt></ruby>みます",
+    "romaji": "koohii wo   nomimasu"
+  },
+  {
+    "ja": "学校に 行きます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "<ruby>学校<rt>がっこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます",
+    "romaji": "gakkouni   ikimasu"
+  },
+  {
+    "ja": "家に 帰ります",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "<ruby>家<rt>いえ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>ります",
+    "romaji": "ieni   kaerimasu"
+  },
+  {
+    "ja": "本を 読みます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "<ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます",
+    "romaji": "honwo   yomimasu"
+  },
+  {
+    "ja": "手紙を 書きます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "<ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます",
+    "romaji": "tegamiwo   kakimasu"
+  },
+  {
+    "ja": "テレビを 見ます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "テレビを <ruby>見<rt>み</rt></ruby>ます",
+    "romaji": "terebi wo   mimasu"
+  },
+  {
+    "ja": "音楽を 聞きます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ1：日常動作",
+    "furigana": "<ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きます",
+    "romaji": "ongakuwo   kikimasu"
+  },
+  {
+    "ja": "電車に 乗ります",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "<ruby>電車<rt>でんしゃ</rt></ruby>に <ruby>乗<rt>の</rt></ruby>ります",
+    "romaji": "denshani   norimasu"
+  },
+  {
+    "ja": "バスで 行きます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "バスで <ruby>行<rt>い</rt></ruby>きます",
+    "romaji": "basu de   ikimasu"
+  },
+  {
+    "ja": "駅で 降ります",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "<ruby>駅<rt>えき</rt></ruby>で <ruby>降<rt>お</rt></ruby>ります",
+    "romaji": "ekide   orimasu"
+  },
+  {
+    "ja": "歩いて来ます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "<ruby>歩<rt>ある</rt></ruby>いて<ruby>来<rt>き</rt></ruby>ます",
+    "romaji": "aruitekimasu"
+  },
+  {
+    "ja": "自転車に 乗ります",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "<ruby>自転車<rt>じてんしゃ</rt></ruby>に <ruby>乗<rt>の</rt></ruby>ります",
+    "romaji": "jitenshani   norimasu"
+  },
+  {
+    "ja": "タクシーで 行きます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "タクシーで <ruby>行<rt>い</rt></ruby>きます",
+    "romaji": "takushii de   ikimasu"
+  },
+  {
+    "ja": "空港に 行きます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "<ruby>空港<rt>くうこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます",
+    "romaji": "kuukouni   ikimasu"
+  },
+  {
+    "ja": "ホテルに 泊まります",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "ホテルに <ruby>泊<rt>と</rt></ruby>まります",
+    "romaji": "hoteru ni   tomarimasu"
+  },
+  {
+    "ja": "旅行に 行きます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "<ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます",
+    "romaji": "ryokouni   ikimasu"
+  },
+  {
+    "ja": "散歩を します",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ2：移動・交通",
+    "furigana": "<ruby>散歩<rt>さんぽ</rt></ruby>を します",
+    "romaji": "sanpowo   shimasu"
+  },
+  {
+    "ja": "スーパーで 買い物を します",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "スーパーで <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を します",
+    "romaji": "suupaa de   kaimonowo   shimasu"
+  },
+  {
+    "ja": "レストランで 食事を します",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "レストランで <ruby>食事<rt>しょくじ</rt></ruby>を します",
+    "romaji": "resutoran de   shokujiwo   shimasu"
+  },
+  {
+    "ja": "お金を 払います",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "お<ruby>金<rt>かね</rt></ruby>を <ruby>払<rt>はら</rt></ruby>います",
+    "romaji": "okanewo   haraimasu"
+  },
+  {
+    "ja": "切符を 買います",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "<ruby>切符<rt>きっぷ</rt></ruby>を <ruby>買<rt>か</rt></ruby>います",
+    "romaji": "kippuwo   kaimasu"
+  },
+  {
+    "ja": "お土産を 買います",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "お<ruby>土産<rt>みやげ</rt></ruby>を <ruby>買<rt>か</rt></ruby>います",
+    "romaji": "omiyagewo   kaimasu"
+  },
+  {
+    "ja": "パンを 買います",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "パンを <ruby>買<rt>か</rt></ruby>います",
+    "romaji": "pan wo   kaimasu"
+  },
+  {
+    "ja": "果物を 買います",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "<ruby>果物<rt>くだもの</rt></ruby>を <ruby>買<rt>か</rt></ruby>います",
+    "romaji": "kudamonowo   kaimasu"
+  },
+  {
+    "ja": "お茶を 飲みます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます",
+    "romaji": "ochawo   nomimasu"
+  },
+  {
+    "ja": "昼ごはんを 食べます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "<ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べます",
+    "romaji": "hirugohanwo   tabemasu"
+  },
+  {
+    "ja": "晩ごはんを 食べます",
+    "category": "カテゴリ1：基本語彙（動詞）",
+    "group": "グループ3：買い物・食事",
+    "furigana": "<ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べます",
+    "romaji": "bangohanwo   tabemasu"
+  },
+  {
+    "ja": "この本は おもしろいです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "この<ruby>本<rt>ほん</rt></ruby>は おもしろいです",
+    "romaji": "konohonha   omoshiroidesu"
+  },
+  {
+    "ja": "あの映画は つまらないです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "あの<ruby>映画<rt>えいが</rt></ruby>は つまらないです",
+    "romaji": "anoeigaha   tsumaranaidesu"
+  },
+  {
+    "ja": "今日は 暑いです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "<ruby>今日<rt>きょう</rt></ruby>は <ruby>暑<rt>あつ</rt></ruby>いです",
+    "romaji": "kyouha   atsuidesu"
+  },
+  {
+    "ja": "昨日は 寒かったです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "<ruby>昨日<rt>きのう</rt></ruby>は <ruby>寒<rt>さむ</rt></ruby>かったです",
+    "romaji": "kinouha   samukattadesu"
+  },
+  {
+    "ja": "このケーキは 甘いです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "このケーキは <ruby>甘<rt>あま</rt></ruby>いです",
+    "romaji": "kono keeki ha   amaidesu"
+  },
+  {
+    "ja": "コーヒーは 熱いです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "コーヒーは <ruby>熱<rt>あつ</rt></ruby>いです",
+    "romaji": "koohii ha   atsuidesu"
+  },
+  {
+    "ja": "水は 冷たいです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "<ruby>水<rt>みず</rt></ruby>は <ruby>冷<rt>つめ</rt></ruby>たいです",
+    "romaji": "mizuha   tsumetaidesu"
+  },
+  {
+    "ja": "この部屋は 広いです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "この<ruby>部屋<rt>へや</rt></ruby>は <ruby>広<rt>ひろ</rt></ruby>いです",
+    "romaji": "konoheyaha   hiroidesu"
+  },
+  {
+    "ja": "あの部屋は 狭いです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "あの<ruby>部屋<rt>へや</rt></ruby>は <ruby>狭<rt>せま</rt></ruby>いです",
+    "romaji": "anoheyaha   semaidesu"
+  },
+  {
+    "ja": "この車は 新しいです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ1：い形容詞",
+    "furigana": "この<ruby>車<rt>くるま</rt></ruby>は <ruby>新<rt>あたら</rt></ruby>しいです",
+    "romaji": "konokurumaha   atarashiidesu"
+  },
+  {
+    "ja": "私は 日本語が 好きです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby>は <ruby>日本語<rt>にほんご</rt></ruby>が <ruby>好<rt>す</rt></ruby>きです",
+    "romaji": "watashiha   nihongoga   sukidesu"
+  },
+  {
+    "ja": "私は 魚が 嫌いです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby>は <ruby>魚<rt>さかな</rt></ruby>が <ruby>嫌<rt>きら</rt></ruby>いです",
+    "romaji": "watashiha   sakanaga   kiraidesu"
+  },
+  {
+    "ja": "田中さんは 親切な人です",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "<ruby>田中<rt>たなか</rt></ruby>さんは <ruby>親切<rt>しんせつ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>です",
+    "romaji": "tanakasanha   shinsetsunahitodesu"
+  },
+  {
+    "ja": "この町は 静かです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "この<ruby>町<rt>まち</rt></ruby>は <ruby>静<rt>しず</rt></ruby>かです",
+    "romaji": "konomachiha   shizukadesu"
+  },
+  {
+    "ja": "図書館は 便利です",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "<ruby>図書館<rt>としょかん</rt></ruby>は <ruby>便利<rt>べんり</rt></ruby>です",
+    "romaji": "toshokanha   benridesu"
+  },
+  {
+    "ja": "この店は 有名です",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "この<ruby>店<rt>みせ</rt></ruby>は <ruby>有名<rt>ゆうめい</rt></ruby>です",
+    "romaji": "konomiseha   yuumeidesu"
+  },
+  {
+    "ja": "私は 元気です",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby>は <ruby>元気<rt>げんき</rt></ruby>です",
+    "romaji": "watashiha   genkidesu"
+  },
+  {
+    "ja": "この問題は 簡単です",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>簡単<rt>かんたん</rt></ruby>です",
+    "romaji": "konomondaiha   kantandesu"
+  },
+  {
+    "ja": "あの問題は 難しいです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "あの<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>むずか</rt></ruby>しいです",
+    "romaji": "anomondaiha   muzukashiidesu"
+  },
+  {
+    "ja": "私は 忙しいです",
+    "category": "カテゴリ2：基本語彙（形容詞）",
+    "group": "グループ2：な形容詞",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby>は <ruby>忙<rt>いそが</rt></ruby>しいです",
+    "romaji": "watashiha   isogashiidesu"
+  },
+  {
+    "ja": "学校は 駅の近くに あります",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "<ruby>学校<rt>がっこう</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに あります",
+    "romaji": "gakkouha   ekinochikakuni   arimasu"
+  },
+  {
+    "ja": "図書館で 本を 借ります",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "<ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>借<rt>か</rt></ruby>ります",
+    "romaji": "toshokande   honwo   karimasu"
+  },
+  {
+    "ja": "病院に 行きます",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "<ruby>病院<rt>びょういん</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます",
+    "romaji": "byouinni   ikimasu"
+  },
+  {
+    "ja": "郵便局で 切手を 買います",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>で <ruby>切手<rt>きって</rt></ruby>を <ruby>買<rt>か</rt></ruby>います",
+    "romaji": "yuubinkyokude   kittewo   kaimasu"
+  },
+  {
+    "ja": "銀行で お金を 預けます",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "<ruby>銀行<rt>ぎんこう</rt></ruby>で お<ruby>金<rt>かね</rt></ruby>を <ruby>預<rt>あず</rt></ruby>けます",
+    "romaji": "ginkoude   okanewo   azukemasu"
+  },
+  {
+    "ja": "デパートで 買い物を します",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "デパートで <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を します",
+    "romaji": "depaato de   kaimonowo   shimasu"
+  },
+  {
+    "ja": "公園で 散歩を します",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "<ruby>公園<rt>こうえん</rt></ruby>で <ruby>散歩<rt>さんぽ</rt></ruby>を します",
+    "romaji": "kouende   sanpowo   shimasu"
+  },
+  {
+    "ja": "映画館で 映画を 見ます",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "<ruby>映画館<rt>えいがかん</rt></ruby>で <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ます",
+    "romaji": "eigakande   eigawo   mimasu"
+  },
+  {
+    "ja": "本屋で 本を 買います",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ1：場所",
+    "furigana": "<ruby>本屋<rt>ほんや</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>買<rt>か</rt></ruby>います",
+    "romaji": "honyade   honwo   kaimasu"
+  },
+  {
+    "ja": "今日は 月曜日です",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>今日<rt>きょう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です",
+    "romaji": "kyouha   getsuyoubidesu"
+  },
+  {
+    "ja": "明日は 火曜日です",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>明日<rt>あした</rt></ruby>は <ruby>火曜日<rt>かようび</rt></ruby>です",
+    "romaji": "ashitaha   kayoubidesu"
+  },
+  {
+    "ja": "昨日は 日曜日でした",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>昨日<rt>きのう</rt></ruby>は <ruby>日曜日<rt>にちようび</rt></ruby>でした",
+    "romaji": "kinouha   nichiyoubideshita"
+  },
+  {
+    "ja": "今週の土曜日に 会いましょう",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>今週<rt>こんしゅう</rt></ruby>の<ruby>土曜日<rt>どようび</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いましょう",
+    "romaji": "konshuunodoyoubini   aimashou"
+  },
+  {
+    "ja": "来週の水曜日に 試験が あります",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>来週<rt>らいしゅう</rt></ruby>の<ruby>水曜日<rt>すいようび</rt></ruby>に <ruby>試験<rt>しけん</rt></ruby>が あります",
+    "romaji": "raishuunosuiyoubini   shikenga   arimasu"
+  },
+  {
+    "ja": "毎週 金曜日に 日本語を 勉強します",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>毎週<rt>まいしゅう</rt></ruby> <ruby>金曜日<rt>きんようび</rt></ruby>に <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します",
+    "romaji": "maishuu   kinyoubini   nihongowo   benkyoushimasu"
+  },
+  {
+    "ja": "今月は 忙しいです",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>今月<rt>こんげつ</rt></ruby>は <ruby>忙<rt>いそが</rt></ruby>しいです",
+    "romaji": "kongetsuha   isogashiidesu"
+  },
+  {
+    "ja": "来月は 旅行に 行きます",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>来月<rt>らいげつ</rt></ruby>は <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます",
+    "romaji": "raigetsuha   ryokouni   ikimasu"
+  },
+  {
+    "ja": "去年の夏に 日本に 行きました",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>に <ruby>日本<rt>にほん</rt></ruby>に <ruby>行<rt>い</rt></ruby>きました",
+    "romaji": "kyonennonatsuni   nihonni   ikimashita"
+  },
+  {
+    "ja": "来年の春に 卒業します",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ2：時間・曜日",
+    "furigana": "<ruby>来年<rt>らいねん</rt></ruby>の<ruby>春<rt>はる</rt></ruby>に <ruby>卒業<rt>そつぎょう</rt></ruby>します",
+    "romaji": "rainennoharuni   sotsugyoushimasu"
+  },
+  {
+    "ja": "私の家族は 4人です",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby>の<ruby>家族<rt>かぞく</rt></ruby>は 4<ruby>人<rt>にん</rt></ruby>です",
+    "romaji": "watashinokazokuha  4 nindesu"
+  },
+  {
+    "ja": "父は 会社員です",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>父<rt>ちち</rt></ruby>は <ruby>会社員<rt>かいしゃいん</rt></ruby>です",
+    "romaji": "chichiha   kaishaindesu"
+  },
+  {
+    "ja": "母は 主婦です",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>母<rt>はは</rt></ruby>は <ruby>主婦<rt>しゅふ</rt></ruby>です",
+    "romaji": "hahaha   shufudesu"
+  },
+  {
+    "ja": "兄は 大学生です",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>兄<rt>あに</rt></ruby>は <ruby>大学生<rt>だいがくせい</rt></ruby>です",
+    "romaji": "aniha   daigakuseidesu"
+  },
+  {
+    "ja": "妹は 高校生です",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>妹<rt>いもうと</rt></ruby>は <ruby>高校生<rt>こうこうせい</rt></ruby>です",
+    "romaji": "imoutoha   koukouseidesu"
+  },
+  {
+    "ja": "友達と 一緒に 遊びます",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>友達<rt>ともだち</rt></ruby>と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>遊<rt>あそ</rt></ruby>びます",
+    "romaji": "tomodachito   isshoni   asobimasu"
+  },
+  {
+    "ja": "先生に 質問します",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>先生<rt>せんせい</rt></ruby>に <ruby>質問<rt>しつもん</rt></ruby>します",
+    "romaji": "senseini   shitsumonshimasu"
+  },
+  {
+    "ja": "同僚と 仕事を します",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>同僚<rt>どうりょう</rt></ruby>と <ruby>仕事<rt>しごと</rt></ruby>を します",
+    "romaji": "douryouto   shigotowo   shimasu"
+  },
+  {
+    "ja": "隣の人は 優しいです",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は <ruby>優<rt>やさ</rt></ruby>しいです",
+    "romaji": "tonarinohitoha   yasashiidesu"
+  },
+  {
+    "ja": "知り合いと 会います",
+    "category": "カテゴリ3：基本語彙（名詞）",
+    "group": "グループ3：家族・人",
+    "furigana": "<ruby>知<rt>し</rt></ruby>り<ruby>合<rt>あ</rt></ruby>いと <ruby>会<rt>あ</rt></ruby>います",
+    "romaji": "shiriaito   aimasu"
+  },
+  {
+    "ja": "先週 デパートに かいものに いきました",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "<ruby>先週<rt>せんしゅう</rt></ruby> デパートに かいものに いきました",
+    "romaji": "senshuu   depaato ni   kaimononi   ikimashita"
+  },
+  {
+    "ja": "けさ シャワーを あびました",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "けさ シャワーを あびました",
+    "romaji": "kesa   shawaa wo   abimashita"
+  },
+  {
+    "ja": "わたしの へやは この アパートの 2かいです",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "わたしの へやは この アパートの 2かいです",
+    "romaji": "watashino   heyaha   kono   apaato no  2 kaidesu"
+  },
+  {
+    "ja": "新しい くるまですね",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "<ruby>新<rt>あたら</rt></ruby>しい くるまですね",
+    "romaji": "atarashii   kurumadesune"
+  },
+  {
+    "ja": "さとうさんは ギターを じょうずに ひきます",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "さとうさんは ギターを じょうずに ひきます",
+    "romaji": "satousanha   gitaa wo   jouzuni   hikimasu"
+  },
+  {
+    "ja": "あの ホテルは ゆうめいです",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "あの ホテルは ゆうめいです",
+    "romaji": "ano   hoteru ha   yuumeidesu"
+  },
+  {
+    "ja": "テーブルに おさらと はしを ならべて ください",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "テーブルに おさらと はしを ならべて ください",
+    "romaji": "teeburu ni   osarato   hashiwo   narabete   kudasai"
+  },
+  {
+    "ja": "この まちには ゆうめいな たてものが あります",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "この まちには ゆうめいな たてものが あります",
+    "romaji": "kono   machiniha   yuumeina   tatemonoga   arimasu"
+  },
+  {
+    "ja": "その えいがは おもしろくなかったです",
+    "category": "読解",
+    "group": "読解問題",
+    "furigana": "その えいがは おもしろくなかったです",
+    "romaji": "sono   eigaha   omoshirokunakattadesu"
+  }
+]
