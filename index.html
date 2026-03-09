@@ -125,6 +125,9 @@
     .romaji-wrapper {
       position: relative;
       margin-top: 12px;
+      cursor: text;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: rgba(255,255,255,0.1);
     }
     .romaji-wrapper .romaji-display {
       margin-top: 0;
@@ -135,9 +138,12 @@
       left: 0;
       width: 100%;
       height: 100%;
+      min-height: 60px;
       opacity: 0;
       cursor: text;
       font-size: 16px;
+      -webkit-appearance: none;
+      appearance: none;
     }
 
     .btn-row {
@@ -292,9 +298,9 @@
           role="application" aria-label="ローマ字入力エリア" lang="en">
           （ここをクリックして入力開始）
         </div>
-        <input type="tel" id="typingInput" class="typing-input" tabindex="0" autocomplete="off" autocapitalize="off"
-          autocorrect="off" spellcheck="false" inputmode="latin" lang="en" readonly
-          aria-label="ローマ字入力">
+        <input type="text" id="typingInput" class="typing-input" tabindex="0" autocomplete="off" autocapitalize="off"
+          autocorrect="off" spellcheck="false" inputmode="latin" lang="en"
+          aria-label="ローマ字入力"
       </div>
 
       <div class="feedback" id="feedback"></div>
@@ -630,7 +636,9 @@
         if (k.length === 1 && /[a-zA-Z0-9\s\-]/.test(k)) return k.toLowerCase();
         return null;
       }
-      romajiDisplay.addEventListener('click', function() { typingInput.focus(); });
+      document.querySelector('.romaji-wrapper').addEventListener('click', function() {
+        typingInput.focus();
+      });
       typingInput.addEventListener('input', onTypingInput);
       typingInput.addEventListener('compositionend', onTypingInput);
       typingInput.addEventListener('paste', function(e) { e.preventDefault(); });
