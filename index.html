@@ -315,7 +315,7 @@
         </div>
         <input type="text" id="typingInput" class="typing-input" tabindex="0" autocomplete="off" autocapitalize="off"
           autocorrect="off" spellcheck="false" inputmode="latin" lang="en"
-          aria-label="ローマ字入力"
+          aria-label="ローマ字入力">
       </div>
 
       <div class="feedback" id="feedback"></div>
@@ -636,84 +636,18 @@
         }, 800);
       }
 
-      var CODE_TO_CHAR = {
-        KeyA:'a',KeyB:'b',KeyC:'c',KeyD:'d',KeyE:'e',KeyF:'f',KeyG:'g',KeyH:'h',KeyI:'i',KeyJ:'j',
-        KeyK:'k',KeyL:'l',KeyM:'m',KeyN:'n',KeyO:'o',KeyP:'p',KeyQ:'q',KeyR:'r',KeyS:'s',KeyT:'t',
-        KeyU:'u',KeyV:'v',KeyW:'w',KeyX:'x',KeyY:'y',KeyZ:'z',
-        Digit0:'0',Digit1:'1',Digit2:'2',Digit3:'3',Digit4:'4',Digit5:'5',Digit6:'6',Digit7:'7',Digit8:'8',Digit9:'9',
-        Numpad0:'0',Numpad1:'1',Numpad2:'2',Numpad3:'3',Numpad4:'4',Numpad5:'5',Numpad6:'6',Numpad7:'7',Numpad8:'8',Numpad9:'9',
-        Space:' ',Minus:'-',NumpadSubtract:'-'
-      };
-      function getCharFromKeyEvent(e) {
-        var c = CODE_TO_CHAR[e.code];
-        if (c !== undefined) return c;
-        var k = e.key;
-        if (k.length === 1 && /[a-zA-Z0-9\s\-]/.test(k)) return k.toLowerCase();
-        return null;
-      }
       document.querySelector('.romaji-wrapper').addEventListener('click', function() {
         typingInput.focus();
       });
       typingInput.addEventListener('input', onTypingInput);
       typingInput.addEventListener('compositionend', onTypingInput);
       typingInput.addEventListener('paste', function(e) { e.preventDefault(); });
-      function isTypingAreaActive() {
-        if (!practiceCard || practiceCard.style.display === 'none') return false;
-        if (resultPanel.classList.contains('show')) return false;
-        var active = document.activeElement;
-        return active === typingInput || active === romajiDisplay || romajiDisplay.contains(active);
-      }
-      function handleKeydown(e) {
-        if (!isTypingAreaActive()) return;
-        if (e.code === 'Enter') { e.preventDefault(); e.stopPropagation(); skip(); return; }
-        if (e.ctrlKey || e.metaKey || e.altKey) return;
-        var k = getCharFromKeyEvent(e);
-        if (k !== null) {
+      typingInput.addEventListener('keydown', function(e) {
+        if (e.code === 'Enter') {
           e.preventDefault();
-          e.stopPropagation();
-          var el = typingInput;
-          var start = el.selectionStart;
-          var end = el.selectionEnd;
-          var val = el.value;
-          var newVal = val.substring(0, start) + k + val.substring(end);
-          el.value = newVal;
-          el.selectionStart = el.selectionEnd = start + 1;
-          el.dispatchEvent(new Event('input', { bubbles: true }));
-        } else if (e.code === 'Backspace') {
-          e.preventDefault();
-          e.stopPropagation();
-          var el = typingInput;
-          var start = el.selectionStart;
-          var end = el.selectionEnd;
-          var val = el.value;
-          if (start !== end) {
-            el.value = val.substring(0, start) + val.substring(end);
-            el.selectionStart = el.selectionEnd = start;
-            el.dispatchEvent(new Event('input', { bubbles: true }));
-          } else if (start > 0) {
-            el.value = val.substring(0, start - 1) + val.substring(start);
-            el.selectionStart = el.selectionEnd = start - 1;
-            el.dispatchEvent(new Event('input', { bubbles: true }));
-          }
-        } else if (e.code === 'Delete') {
-          e.preventDefault();
-          e.stopPropagation();
-          var el = typingInput;
-          var start = el.selectionStart;
-          var end = el.selectionEnd;
-          var val = el.value;
-          if (start !== end) {
-            el.value = val.substring(0, start) + val.substring(end);
-            el.selectionStart = el.selectionEnd = start;
-            el.dispatchEvent(new Event('input', { bubbles: true }));
-          } else if (start < val.length) {
-            el.value = val.substring(0, start) + val.substring(start + 1);
-            el.selectionStart = el.selectionEnd = start;
-            el.dispatchEvent(new Event('input', { bubbles: true }));
-          }
+          skip();
         }
-      }
-      window.addEventListener('keydown', handleKeydown, true);
+      });
       document.getElementById('btnSkip').addEventListener('click', skip);
       document.getElementById('btnRestart').addEventListener('click', function() {
         resultPanel.classList.remove('show');
