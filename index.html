@@ -362,6 +362,9 @@
       var resultPanel = document.getElementById('resultPanel');
       var correctCountEl = document.getElementById('correctCount');
       var totalCountEl = document.getElementById('totalCount');
+      var subtitleEl = document.querySelector('header .subtitle');
+      var startupWarnings = [];
+      var startupWarningShown = false;
 
       if (!display || !romajiDisplay || !typingInput || !practiceCard || !resultPanel) {
         if (display) display.textContent = 'ページの読み込みに失敗しました。';
@@ -371,6 +374,43 @@
       function isFuriganaOn() {
         var r = document.querySelector('input[name="furiganaMode"]:checked');
         return r && r.value === 'on';
+      }
+      function pushStartupWarning(msg) {
+        if (!msg) return;
+        startupWarnings.push(String(msg));
+      }
+      function showStartupWarnings() {
+        if (startupWarningShown || !subtitleEl || startupWarnings.length === 0) return;
+        subtitleEl.textContent = subtitleEl.textContent + ' (' + startupWarnings.join(' / ') + ')';
+        subtitleEl.style.color = '#ffd60a';
+        startupWarningShown = true;
+      }
+      function sanitizeFuriganaHtml(rawHtml) {
+        var template = document.createElement('template');
+        template.innerHTML = String(rawHtml || '');
+        var allowed = { RUBY: true, RT: true, RP: true, BR: true };
+        function sanitizeNode(node) {
+          if (!node) return;
+          if (node.nodeType === 3) return;
+          if (node.nodeType !== 1) {
+            if (node.parentNode) node.parentNode.removeChild(node);
+            return;
+          }
+          var tag = String(node.tagName || '').toUpperCase();
+          if (!allowed[tag]) {
+            var text = document.createTextNode(node.textContent || '');
+            if (node.parentNode) node.parentNode.replaceChild(text, node);
+            return;
+          }
+          while (node.attributes && node.attributes.length > 0) {
+            node.removeAttribute(node.attributes[0].name);
+          }
+          var children = Array.prototype.slice.call(node.childNodes || []);
+          for (var i = 0; i < children.length; i++) sanitizeNode(children[i]);
+        }
+        var roots = Array.prototype.slice.call(template.content.childNodes || []);
+        for (var i = 0; i < roots.length; i++) sanitizeNode(roots[i]);
+        return template.innerHTML;
       }
 
       function normalizeRomaji(s) {
@@ -447,26 +487,64 @@
       function normalizeForCompare(s) {
         return normalizeForDisplay(s).replace(/\s/g, '');
       }
+      function toDashLongVowelDisplay(romajiSpaced, jaText) {
+        var jaTokens = String(jaText || '').trim().split(/\s+/).filter(Boolean);
+        var romajiTokens = String(romajiSpaced || '').trim().split(/\s+/).filter(Boolean);
+        if (jaTokens.length === 0 || romajiTokens.length === 0) return String(romajiSpaced || '');
+        if (jaTokens.length !== romajiTokens.length) return romajiTokens.join(' ');
+        for (var i = 0; i < jaTokens.length && i < romajiTokens.length; i++) {
+          if (jaTokens[i].indexOf('ー') !== -1) {
+            romajiTokens[i] = romajiTokens[i].replace(/([aeiou])\1/g, '$1-');
+          }
+        }
+        return romajiTokens.join(' ');
+      }
       function prepareSentence(s) {
-        s.ja = String(s.ja || '').replace(/。/g, '').trim();
-        if (s.furigana) s.furigana = s.furigana.replace(/。/g, '');
-        var r = stripPeriod(s.romaji || '');
-        var normalized = normalizeForDisplay(r).replace(/\s/g, '');
-        s._display = normalized;
-        s._norm = normalized;
-        return s;
+        if (!s || Object.prototype.toString.call(s) !== '[object Object]') return null;
+        var ja = String(s.ja || '').replace(/。/g, '').trim();
+        var romajiSrc = stripPeriod(s.romaji || '');
+        if (!ja || !romajiSrc) return null;
+        var furigana = '';
+        if (typeof s.furigana === 'string' && s.furigana) {
+          furigana = sanitizeFuriganaHtml(s.furigana.replace(/。/g, ''));
+        }
+        var r = stripPeriod(romajiSrc);
+        var normalizedSpaced = normalizeForDisplay(r);
+        var normalized = normalizedSpaced.replace(/\s/g, '');
+        if (!normalized) return null;
+        return {
+          ja: ja,
+          romaji: romajiSrc,
+          furigana: furigana,
+          _display: toDashLongVowelDisplay(normalizedSpaced, ja).replace(/\s/g, ''),
+          _norm: normalized
+        };
       }
 
       function loadSentences() {
         var data = FALLBACK_DATA;
+        var usedFallback = false;
         try {
           var el = document.getElementById('sentences-json');
           if (el && el.textContent) {
             var parsed = JSON.parse(el.textContent);
             if (Array.isArray(parsed) && parsed.length > 0) data = parsed;
+            else usedFallback = true;
+          } else {
+            usedFallback = true;
           }
-        } catch (e) {}
-        sentences = data.map(prepareSentence);
+        } catch (e) {
+          usedFallback = true;
+        }
+        if (usedFallback) {
+          pushStartupWarning('データ読込失敗: 簡易データ');
+        }
+        sentences = data.map(prepareSentence).filter(Boolean);
+        if (sentences.length === 0 && data !== FALLBACK_DATA) {
+          pushStartupWarning('データ形式不正: 簡易データ');
+          sentences = FALLBACK_DATA.map(prepareSentence).filter(Boolean);
+        }
+        showStartupWarnings();
         filterAndShuffle();
       }
 
@@ -636,9 +714,12 @@
         }, 800);
       }
 
-      document.querySelector('.romaji-wrapper').addEventListener('click', function() {
-        typingInput.focus();
-      });
+      var romajiWrapper = document.querySelector('.romaji-wrapper');
+      if (romajiWrapper) {
+        romajiWrapper.addEventListener('click', function() {
+          typingInput.focus();
+        });
+      }
       typingInput.addEventListener('input', onTypingInput);
       typingInput.addEventListener('compositionend', onTypingInput);
       typingInput.addEventListener('paste', function(e) { e.preventDefault(); });
@@ -648,13 +729,17 @@
           skip();
         }
       });
-      document.getElementById('btnSkip').addEventListener('click', skip);
-      document.getElementById('btnRestart').addEventListener('click', function() {
-        resultPanel.classList.remove('show');
-        practiceCard.style.display = 'block';
-        filterAndShuffle();
-        showCurrent();
-      });
+      var btnSkip = document.getElementById('btnSkip');
+      if (btnSkip) btnSkip.addEventListener('click', skip);
+      var btnRestart = document.getElementById('btnRestart');
+      if (btnRestart) {
+        btnRestart.addEventListener('click', function() {
+          resultPanel.classList.remove('show');
+          practiceCard.style.display = 'block';
+          filterAndShuffle();
+          showCurrent();
+        });
+      }
 
       var modeRadios = document.querySelectorAll('input[name="furiganaMode"]');
       for (var i = 0; i < modeRadios.length; i++) {
