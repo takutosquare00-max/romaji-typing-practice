@@ -491,7 +491,6 @@
         var jaTokens = String(jaText || '').trim().split(/\s+/).filter(Boolean);
         var romajiTokens = String(romajiSpaced || '').trim().split(/\s+/).filter(Boolean);
         if (jaTokens.length === 0 || romajiTokens.length === 0) return String(romajiSpaced || '');
-        if (jaTokens.length !== romajiTokens.length) return romajiTokens.join(' ');
         for (var i = 0; i < jaTokens.length && i < romajiTokens.length; i++) {
           if (jaTokens[i].indexOf('ー') !== -1) {
             romajiTokens[i] = romajiTokens[i].replace(/([aeiou])\1/g, '$1-');
