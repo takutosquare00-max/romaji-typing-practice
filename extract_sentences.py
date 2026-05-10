@@ -51,7 +51,20 @@ def to_furigana_html(text: str) -> str:
     html = _fix_furigana_hito_nin(html)
     html = _fix_furigana_okane(html)
     html = _fix_furigana_common_errors(html)
+    html = _fix_furigana_numbers(html)
     return html
+
+
+def _fix_furigana_numbers(html: str) -> str:
+    """数字＋助数詞をひとまとまりでruby化する。"""
+    replacements = {
+        r"7<ruby>時<rt>じ</rt></ruby>": "<ruby>7時<rt>しちじ</rt></ruby>",
+        r"11<ruby>時<rt>じ</rt></ruby>": "<ruby>11時<rt>じゅういちじ</rt></ruby>",
+        r"4<ruby>人<rt>にん</rt></ruby>": "<ruby>4人<rt>よにん</rt></ruby>",
+    }
+    for pattern, replacement in replacements.items():
+        html = re.sub(pattern, replacement, html)
+    return re.sub(r"(?<!>)2かい", "<ruby>2かい<rt>にかい</rt></ruby>", html)
 
 
 def _fix_furigana_common_errors(html: str) -> str:

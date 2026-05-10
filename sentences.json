@@ -3,14 +3,14 @@
     "ja": "私は 毎朝7時に 起きます",
     "category": "カテゴリ1：基本語彙（動詞）",
     "group": "グループ1：日常動作",
-    "furigana": "<ruby>私<rt>わたし</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby>7<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby><ruby>7時<rt>しちじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます",
     "romaji": "watashiha   maiasa shichiji ni   okimasu"
   },
   {
     "ja": "毎晩 11時に 寝ます",
     "category": "カテゴリ1：基本語彙（動詞）",
     "group": "グループ1：日常動作",
-    "furigana": "<ruby>毎晩<rt>まいばん</rt></ruby> 11<ruby>時<rt>じ</rt></ruby>に <ruby>寝<rt>ね</rt></ruby>ます",
+    "furigana": "<ruby>毎晩<rt>まいばん</rt></ruby> <ruby>11時<rt>じゅういちじ</rt></ruby>に <ruby>寝<rt>ね</rt></ruby>ます",
     "romaji": "maiban  juuichiji ni   nemasu"
   },
   {
@@ -486,7 +486,7 @@
     "ja": "私の家族は 4人です",
     "category": "カテゴリ3：基本語彙（名詞）",
     "group": "グループ3：家族・人",
-    "furigana": "<ruby>私<rt>わたし</rt></ruby>の<ruby>家族<rt>かぞく</rt></ruby>は 4<ruby>人<rt>にん</rt></ruby>です",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby>の<ruby>家族<rt>かぞく</rt></ruby>は <ruby>4人<rt>よにん</rt></ruby>です",
     "romaji": "watashinokazokuha  4 nindesu"
   },
   {
@@ -570,7 +570,7 @@
     "ja": "わたしの へやは この アパートの 2かいです",
     "category": "読解",
     "group": "読解問題",
-    "furigana": "わたしの へやは この アパートの 2かいです",
+    "furigana": "わたしの へやは この アパートの <ruby>2かい<rt>にかい</rt></ruby>です",
     "romaji": "watashino   heyaha   kono   apaato no  2 kaidesu"
   },
   {
