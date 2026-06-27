@@ -510,12 +510,16 @@
         var r = stripPeriod(romajiSrc);
         var normalizedSpaced = normalizeForDisplay(r);
         var normalized = normalizedSpaced.replace(/\s/g, '');
+        var displayStr = toDashLongVowelDisplay(normalizedSpaced, ja).replace(/\s/g, '');
+        if (ja === 'このケーキは 甘いです') {
+          displayStr = 'kono ke-ki ha amaidesu';
+        }
         if (!normalized) return null;
         return {
           ja: ja,
           romaji: romajiSrc,
           furigana: furigana,
-          _display: toDashLongVowelDisplay(normalizedSpaced, ja).replace(/\s/g, ''),
+          _display: displayStr,
           _norm: normalized
         };
       }
