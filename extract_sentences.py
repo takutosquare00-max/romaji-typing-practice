@@ -346,6 +346,7 @@ def main():
         if key not in seen and len(key) <= MAX_SENTENCE_LENGTH:
             seen.add(key)
             unique.append(s)
+    unique = [s for s in unique if s["ja"].replace("。", "").strip() != "歩いて来ます"]
 
     # 振り仮名HTMLを先に生成し、その読みを正としてローマ字を生成（日本語表示と一致させる）
     for item in unique:
