@@ -886,10 +886,14 @@
           typingInput.focus();
         });
       }
-      typingInput.addEventListener('input', onTypingInput);
+      typingInput.addEventListener('input', function(e) {
+        if (e.isComposing) return;
+        onTypingInput();
+      });
       typingInput.addEventListener('compositionend', onTypingInput);
       typingInput.addEventListener('paste', function(e) { e.preventDefault(); });
       typingInput.addEventListener('keydown', function(e) {
+        if (e.isComposing) return;
         if (advancing && (e.code === 'Enter' || e.code === 'Space')) {
           e.preventDefault();
           advanceToNext();
