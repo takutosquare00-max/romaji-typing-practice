@@ -1,0 +1,853 @@
+[
+  {
+    "ja": "きのう 友だちが 来ました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "きのう <ruby>友<rt>とも</rt></ruby>だち<mark>が</mark> <ruby>来<rt>き</rt></ruby>ました",
+    "ja_html": "きのう 友だち<mark>が</mark> 来ました",
+    "romaji": "kinou tomodachiga kimashita",
+    "particles": [
+      "が"
+    ]
+  },
+  {
+    "ja": "だれが 来ましたか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "だれ<mark>が</mark> <ruby>来<rt>き</rt></ruby>ました<mark>か</mark>",
+    "ja_html": "だれ<mark>が</mark> 来ました<mark>か</mark>",
+    "romaji": "darega kimashitaka",
+    "particles": [
+      "が",
+      "か"
+    ]
+  },
+  {
+    "ja": "漢字は むずかしいですが おもしろいです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>漢字<rt>かんじ</rt></ruby><mark>は</mark> むずかしいです<mark>が</mark> おもしろいです",
+    "ja_html": "漢字<mark>は</mark> むずかしいです<mark>が</mark> おもしろいです",
+    "romaji": "kanjiha muzukashiidesuga omoshiroidesu",
+    "particles": [
+      "は",
+      "が"
+    ]
+  },
+  {
+    "ja": "はじめて ケーキを 作りましたが とても おいしかったです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "はじめて ケーキ<mark>を</mark> <ruby>作<rt>つく</rt></ruby>りました<mark>が</mark> とても おいしかったです",
+    "ja_html": "はじめて ケーキ<mark>を</mark> 作りました<mark>が</mark> とても おいしかったです",
+    "romaji": "hajimete keekiwo tsukurimashitaga totemo oishikattadesu",
+    "particles": [
+      "を",
+      "が"
+    ]
+  },
+  {
+    "ja": "私は パンを 食べます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby><mark>は</mark> パン<mark>を</mark> <ruby>食<rt>た</rt></ruby>べます",
+    "ja_html": "私<mark>は</mark> パン<mark>を</mark> 食べます",
+    "romaji": "watashiha panwo tabemasu",
+    "particles": [
+      "は",
+      "を"
+    ]
+  },
+  {
+    "ja": "毎朝 7時に 家を 出ます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>7時<rt>しちじ</rt></ruby><mark>に</mark> <ruby>家<rt>いえ</rt></ruby><mark>を</mark> <ruby>出<rt>で</rt></ruby>ます",
+    "ja_html": "毎朝 7時<mark>に</mark> 家<mark>を</mark> 出ます",
+    "romaji": "maiasa shichijini iewo demasu",
+    "particles": [
+      "に",
+      "を"
+    ]
+  },
+  {
+    "ja": "つくえの 上に 本が あります",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "つくえ<mark>の</mark> <ruby>上<rt>うえ</rt></ruby><mark>に</mark> <ruby>本<rt>ほん</rt></ruby><mark>が</mark> あります",
+    "ja_html": "つくえ<mark>の</mark> 上<mark>に</mark> 本<mark>が</mark> あります",
+    "romaji": "tsukueno ueni honga arimasu",
+    "particles": [
+      "の",
+      "に",
+      "が"
+    ]
+  },
+  {
+    "ja": "バスに 乗ります",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "バス<mark>に</mark> <ruby>乗<rt>の</rt></ruby>ります",
+    "ja_html": "バス<mark>に</mark> 乗ります",
+    "romaji": "basuni norimasu",
+    "particles": [
+      "に"
+    ]
+  },
+  {
+    "ja": "先生に 聞きます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>先生<rt>せんせい</rt></ruby><mark>に</mark> <ruby>聞<rt>き</rt></ruby>きます",
+    "ja_html": "先生<mark>に</mark> 聞きます",
+    "romaji": "senseini kikimasu",
+    "particles": [
+      "に"
+    ]
+  },
+  {
+    "ja": "今朝 7時に 起きました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>今朝<rt>けさ</rt></ruby> <ruby>7時<rt>しちじ</rt></ruby><mark>に</mark> <ruby>起<rt>お</rt></ruby>きました",
+    "ja_html": "今朝 7時<mark>に</mark> 起きました",
+    "romaji": "kesa shichijini okimashita",
+    "particles": [
+      "に"
+    ]
+  },
+  {
+    "ja": "本を 買いに 行きます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>本<rt>ほん</rt></ruby><mark>を</mark> <ruby>買<rt>か</rt></ruby>い<mark>に</mark> <ruby>行<rt>い</rt></ruby>きます",
+    "ja_html": "本<mark>を</mark> 買い<mark>に</mark> 行きます",
+    "romaji": "honwo kaini ikimasu",
+    "particles": [
+      "を",
+      "に"
+    ]
+  },
+  {
+    "ja": "部屋で 勉強します",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>部屋<rt>へや</rt></ruby><mark>で</mark> <ruby>勉強<rt>べんきょう</rt></ruby>します",
+    "ja_html": "部屋<mark>で</mark> 勉強します",
+    "romaji": "heyade benkyoushimasu",
+    "particles": [
+      "で"
+    ]
+  },
+  {
+    "ja": "飛行機で アメリカへ 行きます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>飛行機<rt>ひこうき</rt></ruby><mark>で</mark> アメリカ<mark>へ</mark> <ruby>行<rt>い</rt></ruby>きます",
+    "ja_html": "飛行機<mark>で</mark> アメリカ<mark>へ</mark> 行きます",
+    "romaji": "hikoukide amerikahe ikimasu",
+    "particles": [
+      "で",
+      "へ"
+    ]
+  },
+  {
+    "ja": "家へ 帰ります",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>家<rt>いえ</rt></ruby><mark>へ</mark> <ruby>帰<rt>かえ</rt></ruby>ります",
+    "ja_html": "家<mark>へ</mark> 帰ります",
+    "romaji": "iehe kaerimasu",
+    "particles": [
+      "へ"
+    ]
+  },
+  {
+    "ja": "本と ノートを 買いました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>本<rt>ほん</rt></ruby><mark>と</mark> ノート<mark>を</mark> <ruby>買<rt>か</rt></ruby>いました",
+    "ja_html": "本<mark>と</mark> ノート<mark>を</mark> 買いました",
+    "romaji": "honto nootowo kaimashita",
+    "particles": [
+      "と",
+      "を"
+    ]
+  },
+  {
+    "ja": "友だちと ゲームを します",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>友<rt>とも</rt></ruby>だち<mark>と</mark> ゲーム<mark>を</mark> します",
+    "ja_html": "友だち<mark>と</mark> ゲーム<mark>を</mark> します",
+    "romaji": "tomodachito geemuwo shimasu",
+    "particles": [
+      "と",
+      "を"
+    ]
+  },
+  {
+    "ja": "うちから 学校まで 歩いて いきます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "うち<mark>から</mark> <ruby>学校<rt>がっこう</rt></ruby><mark>まで</mark> <ruby>歩<rt>ある</rt></ruby>いて いきます",
+    "ja_html": "うち<mark>から</mark> 学校<mark>まで</mark> 歩いて いきます",
+    "romaji": "uchikara gakkoumade aruite ikimasu",
+    "particles": [
+      "から",
+      "まで"
+    ]
+  },
+  {
+    "ja": "学校の 勉強は 9時から 3時までです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>学校<rt>がっこう</rt></ruby><mark>の</mark> <ruby>勉強<rt>べんきょう</rt></ruby><mark>は</mark> <ruby>9時<rt>くじ</rt></ruby><mark>から</mark> <ruby>3時<rt>さんじ</rt></ruby><mark>まで</mark>です",
+    "ja_html": "学校<mark>の</mark> 勉強<mark>は</mark> 9時<mark>から</mark> 3時<mark>まで</mark>です",
+    "romaji": "gakkouno benkyouha kujikara sanjimadedesu",
+    "particles": [
+      "の",
+      "は",
+      "から",
+      "まで"
+    ]
+  },
+  {
+    "ja": "駅の 前に 銀行や スーパーなどが あります",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>駅<rt>えき</rt></ruby><mark>の</mark> <ruby>前<rt>まえ</rt></ruby><mark>に</mark> <ruby>銀行<rt>ぎんこう</rt></ruby><mark>や</mark> スーパー<mark>など</mark><mark>が</mark> あります",
+    "ja_html": "駅<mark>の</mark> 前<mark>に</mark> 銀行<mark>や</mark> スーパー<mark>など</mark><mark>が</mark> あります",
+    "romaji": "ekino maeni ginkouya suupaanadoga arimasu",
+    "particles": [
+      "の",
+      "に",
+      "や",
+      "など",
+      "が"
+    ]
+  },
+  {
+    "ja": "これは 私の 本です",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "これ<mark>は</mark> <ruby>私<rt>わたし</rt></ruby><mark>の</mark> <ruby>本<rt>ほん</rt></ruby>です",
+    "ja_html": "これ<mark>は</mark> 私<mark>の</mark> 本です",
+    "romaji": "koreha watashino hondesu",
+    "particles": [
+      "は",
+      "の"
+    ]
+  },
+  {
+    "ja": "紙の コップと 100円の ノートを 買いました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>紙<rt>かみ</rt></ruby><mark>の</mark> コップ<mark>と</mark> <ruby>100円<rt>ひゃくえん</rt></ruby><mark>の</mark> ノート<mark>を</mark> <ruby>買<rt>か</rt></ruby>いました",
+    "ja_html": "紙<mark>の</mark> コップ<mark>と</mark> 100円<mark>の</mark> ノート<mark>を</mark> 買いました",
+    "romaji": "kamino kopputo hyakuenno nootowo kaimashita",
+    "particles": [
+      "の",
+      "と",
+      "の",
+      "を"
+    ]
+  },
+  {
+    "ja": "日本の 車は とても いいです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>日本<rt>にほん</rt></ruby><mark>の</mark> <ruby>車<rt>くるま</rt></ruby><mark>は</mark> とても いいです",
+    "ja_html": "日本<mark>の</mark> 車<mark>は</mark> とても いいです",
+    "romaji": "nihonno kurumaha totemo iidesu",
+    "particles": [
+      "の",
+      "は"
+    ]
+  },
+  {
+    "ja": "私は ABKの 学生です",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby><mark>は</mark> <ruby>ABK<rt>エービーケー</rt></ruby><mark>の</mark> <ruby>学生<rt>がくせい</rt></ruby>です",
+    "ja_html": "私<mark>は</mark> ABK<mark>の</mark> 学生です",
+    "romaji": "watashiha eebiikeeno gakuseidesu",
+    "particles": [
+      "は",
+      "の"
+    ]
+  },
+  {
+    "ja": "宿題は 家で して ください",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>宿題<rt>しゅくだい</rt></ruby><mark>は</mark> <ruby>家<rt>いえ</rt></ruby><mark>で</mark> して ください",
+    "ja_html": "宿題<mark>は</mark> 家<mark>で</mark> して ください",
+    "romaji": "shukudaiha iede shite kudasai",
+    "particles": [
+      "は",
+      "で"
+    ]
+  },
+  {
+    "ja": "スミスさんは アメリカ人です",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "スミスさん<mark>は</mark> アメリカ<ruby>人<rt>じん</rt></ruby>です",
+    "ja_html": "スミスさん<mark>は</mark> アメリカ人です",
+    "romaji": "sumisusanha amerikajindesu",
+    "particles": [
+      "は"
+    ]
+  },
+  {
+    "ja": "ジョーンズさんも アメリカ人です",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "ジョーンズさん<mark>も</mark> アメリカ<ruby>人<rt>じん</rt></ruby>です",
+    "ja_html": "ジョーンズさん<mark>も</mark> アメリカ人です",
+    "romaji": "joonzusanmo amerikajindesu",
+    "particles": [
+      "も"
+    ]
+  },
+  {
+    "ja": "公園に だれも いません",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>公園<rt>こうえん</rt></ruby><mark>に</mark> だれ<mark>も</mark> いません",
+    "ja_html": "公園<mark>に</mark> だれ<mark>も</mark> いません",
+    "romaji": "kouenni daremo imasen",
+    "particles": [
+      "に",
+      "も"
+    ]
+  },
+  {
+    "ja": "何か 食べましたか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>何<rt>なに</rt></ruby><mark>か</mark> <ruby>食<rt>た</rt></ruby>べました<mark>か</mark>",
+    "ja_html": "何<mark>か</mark> 食べました<mark>か</mark>",
+    "romaji": "nanika tabemashitaka",
+    "particles": [
+      "か",
+      "か"
+    ]
+  },
+  {
+    "ja": "これは だれの かさですか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "これ<mark>は</mark> だれ<mark>の</mark> かさです<mark>か</mark>",
+    "ja_html": "これ<mark>は</mark> だれ<mark>の</mark> かさです<mark>か</mark>",
+    "romaji": "koreha dareno kasadesuka",
+    "particles": [
+      "は",
+      "の",
+      "か"
+    ]
+  },
+  {
+    "ja": "ここは ABホテルですね",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "ここ<mark>は</mark> <ruby>AB<rt>エービー</rt></ruby>ホテルです<mark>ね</mark>",
+    "ja_html": "ここ<mark>は</mark> ABホテルです<mark>ね</mark>",
+    "romaji": "kokoha eebiihoterudesune",
+    "particles": [
+      "は",
+      "ね"
+    ]
+  },
+  {
+    "ja": "銀行は 駅の 前に ありますよ",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>銀行<rt>ぎんこう</rt></ruby><mark>は</mark> <ruby>駅<rt>えき</rt></ruby><mark>の</mark> <ruby>前<rt>まえ</rt></ruby><mark>に</mark> あります<mark>よ</mark>",
+    "ja_html": "銀行<mark>は</mark> 駅<mark>の</mark> 前<mark>に</mark> あります<mark>よ</mark>",
+    "romaji": "ginkouha ekino maeni arimasuyo",
+    "particles": [
+      "は",
+      "の",
+      "に",
+      "よ"
+    ]
+  },
+  {
+    "ja": "パーティーに 100人くらい 来ました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "パーティー<mark>に</mark> <ruby>100人<rt>ひゃくにん</rt></ruby><mark>くらい</mark> <ruby>来<rt>き</rt></ruby>ました",
+    "ja_html": "パーティー<mark>に</mark> 100人<mark>くらい</mark> 来ました",
+    "romaji": "paathiini hyakuninkurai kimashita",
+    "particles": [
+      "に",
+      "くらい"
+    ]
+  },
+  {
+    "ja": "15分くらい バスに 乗ります",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>15分<rt>じゅうごふん</rt></ruby><mark>くらい</mark> バス<mark>に</mark> <ruby>乗<rt>の</rt></ruby>ります",
+    "ja_html": "15分<mark>くらい</mark> バス<mark>に</mark> 乗ります",
+    "romaji": "juugofunkurai basuni norimasu",
+    "particles": [
+      "くらい",
+      "に"
+    ]
+  },
+  {
+    "ja": "1時間だけ ゲームを しました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>1時間<rt>いちじかん</rt></ruby><mark>だけ</mark> ゲーム<mark>を</mark> しました",
+    "ja_html": "1時間<mark>だけ</mark> ゲーム<mark>を</mark> しました",
+    "romaji": "ichijikandake geemuwo shimashita",
+    "particles": [
+      "だけ",
+      "を"
+    ]
+  },
+  {
+    "ja": "これは 佐藤さんの 本です",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "これ<mark>は</mark> <ruby>佐藤<rt>さとう</rt></ruby>さん<mark>の</mark> <ruby>本<rt>ほん</rt></ruby>です",
+    "ja_html": "これ<mark>は</mark> 佐藤さん<mark>の</mark> 本です",
+    "romaji": "koreha satousanno hondesu",
+    "particles": [
+      "は",
+      "の"
+    ]
+  },
+  {
+    "ja": "あ むこうから バスが 来ますよ",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "あ むこう<mark>から</mark> バス<mark>が</mark> <ruby>来<rt>き</rt></ruby>ます<mark>よ</mark>",
+    "ja_html": "あ むこう<mark>から</mark> バス<mark>が</mark> 来ます<mark>よ</mark>",
+    "romaji": "a mukoukara basuga kimasuyo",
+    "particles": [
+      "から",
+      "が",
+      "よ"
+    ]
+  },
+  {
+    "ja": "デパートで コートを 買いました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "デパート<mark>で</mark> コート<mark>を</mark> <ruby>買<rt>か</rt></ruby>いました",
+    "ja_html": "デパート<mark>で</mark> コート<mark>を</mark> 買いました",
+    "romaji": "depaatode kootowo kaimashita",
+    "particles": [
+      "で",
+      "を"
+    ]
+  },
+  {
+    "ja": "明日 1時に 友だちに 会います",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>明日<rt>あした</rt></ruby> <ruby>1時<rt>いちじ</rt></ruby><mark>に</mark> <ruby>友<rt>とも</rt></ruby>だち<mark>に</mark> <ruby>会<rt>あ</rt></ruby>います",
+    "ja_html": "明日 1時<mark>に</mark> 友だち<mark>に</mark> 会います",
+    "romaji": "ashita ichijini tomodachini aimasu",
+    "particles": [
+      "に",
+      "に"
+    ]
+  },
+  {
+    "ja": "時間が ありませんから タクシーで 行きましょう",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>時間<rt>じかん</rt></ruby><mark>が</mark> ありません<mark>から</mark> タクシー<mark>で</mark> <ruby>行<rt>い</rt></ruby>きましょう",
+    "ja_html": "時間<mark>が</mark> ありません<mark>から</mark> タクシー<mark>で</mark> 行きましょう",
+    "romaji": "jikanga arimasenkara takushiide ikimashou",
+    "particles": [
+      "が",
+      "から",
+      "で"
+    ]
+  },
+  {
+    "ja": "スーパーで パンと くだものを 買いました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "スーパー<mark>で</mark> パン<mark>と</mark> くだもの<mark>を</mark> <ruby>買<rt>か</rt></ruby>いました",
+    "ja_html": "スーパー<mark>で</mark> パン<mark>と</mark> くだもの<mark>を</mark> 買いました",
+    "romaji": "suupaade panto kudamonowo kaimashita",
+    "particles": [
+      "で",
+      "と",
+      "を"
+    ]
+  },
+  {
+    "ja": "私は 友だちと 川で 遊びました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>私<rt>わたし</rt></ruby><mark>は</mark> <ruby>友<rt>とも</rt></ruby>だち<mark>と</mark> <ruby>川<rt>かわ</rt></ruby><mark>で</mark> <ruby>遊<rt>あそ</rt></ruby>びました",
+    "ja_html": "私<mark>は</mark> 友だち<mark>と</mark> 川<mark>で</mark> 遊びました",
+    "romaji": "watashiha tomodachito kawade asobimashita",
+    "particles": [
+      "は",
+      "と",
+      "で"
+    ]
+  },
+  {
+    "ja": "山田さんは この 会社で 働いて います",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>山田<rt>やまだ</rt></ruby>さん<mark>は</mark> この <ruby>会社<rt>かいしゃ</rt></ruby><mark>で</mark> <ruby>働<rt>はたら</rt></ruby>いて います",
+    "ja_html": "山田さん<mark>は</mark> この 会社<mark>で</mark> 働いて います",
+    "romaji": "yamadasanha kono kaishade hataraite imasu",
+    "particles": [
+      "は",
+      "で"
+    ]
+  },
+  {
+    "ja": "佐藤さんの かさは どこに ありますか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>佐藤<rt>さとう</rt></ruby>さん<mark>の</mark> かさ<mark>は</mark> どこ<mark>に</mark> あります<mark>か</mark>",
+    "ja_html": "佐藤さん<mark>の</mark> かさ<mark>は</mark> どこ<mark>に</mark> あります<mark>か</mark>",
+    "romaji": "satousanno kasaha dokoni arimasuka",
+    "particles": [
+      "の",
+      "は",
+      "に",
+      "か"
+    ]
+  },
+  {
+    "ja": "あそこです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "あそこです",
+    "ja_html": "あそこです",
+    "romaji": "asokodesu",
+    "particles": []
+  },
+  {
+    "ja": "ここまで どうやって 来ましたか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "ここ<mark>まで</mark> どうやって <ruby>来<rt>き</rt></ruby>ました<mark>か</mark>",
+    "ja_html": "ここ<mark>まで</mark> どうやって 来ました<mark>か</mark>",
+    "romaji": "kokomade douyatte kimashitaka",
+    "particles": [
+      "まで",
+      "か"
+    ]
+  },
+  {
+    "ja": "歩いて きました",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>歩<rt>ある</rt></ruby>いて きました",
+    "ja_html": "歩いて きました",
+    "romaji": "aruite kimashita",
+    "particles": []
+  },
+  {
+    "ja": "かばんの 中に 本や ノートなどが あります",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "かばん<mark>の</mark> <ruby>中<rt>なか</rt></ruby><mark>に</mark> <ruby>本<rt>ほん</rt></ruby><mark>や</mark> ノート<mark>など</mark><mark>が</mark> あります",
+    "ja_html": "かばん<mark>の</mark> 中<mark>に</mark> 本<mark>や</mark> ノート<mark>など</mark><mark>が</mark> あります",
+    "romaji": "kabanno nakani honya nootonadoga arimasu",
+    "particles": [
+      "の",
+      "に",
+      "や",
+      "など",
+      "が"
+    ]
+  },
+  {
+    "ja": "大学の 図書館へ 英語の 本を 借りに 行きます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>大学<rt>だいがく</rt></ruby><mark>の</mark> <ruby>図書館<rt>としょかん</rt></ruby><mark>へ</mark> <ruby>英語<rt>えいご</rt></ruby><mark>の</mark> <ruby>本<rt>ほん</rt></ruby><mark>を</mark> <ruby>借<rt>か</rt></ruby>り<mark>に</mark> <ruby>行<rt>い</rt></ruby>きます",
+    "ja_html": "大学<mark>の</mark> 図書館<mark>へ</mark> 英語<mark>の</mark> 本<mark>を</mark> 借り<mark>に</mark> 行きます",
+    "romaji": "daigakuno toshokanhe eigono honwo karini ikimasu",
+    "particles": [
+      "の",
+      "へ",
+      "の",
+      "を",
+      "に"
+    ]
+  },
+  {
+    "ja": "明日の 英語の 試験は 10時から 12時まで です",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>明日<rt>あした</rt></ruby><mark>の</mark> <ruby>英語<rt>えいご</rt></ruby><mark>の</mark> <ruby>試験<rt>しけん</rt></ruby><mark>は</mark> <ruby>10時<rt>じゅうじ</rt></ruby><mark>から</mark> <ruby>12時<rt>じゅうにじ</rt></ruby><mark>まで</mark> です",
+    "ja_html": "明日<mark>の</mark> 英語<mark>の</mark> 試験<mark>は</mark> 10時<mark>から</mark> 12時<mark>まで</mark> です",
+    "romaji": "ashitano eigono shikenha juujikara juunijimade desu",
+    "particles": [
+      "の",
+      "の",
+      "は",
+      "から",
+      "まで"
+    ]
+  },
+  {
+    "ja": "あの ホテルは ゆうめいです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "あの ホテル<mark>は</mark> ゆうめいです",
+    "ja_html": "あの ホテル<mark>は</mark> ゆうめいです",
+    "romaji": "ano hoteruha yuumeidesu",
+    "particles": [
+      "は"
+    ]
+  },
+  {
+    "ja": "郵便局で 切手を 買います",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby><mark>で</mark> <ruby>切手<rt>きって</rt></ruby><mark>を</mark> <ruby>買<rt>か</rt></ruby>います",
+    "ja_html": "郵便局<mark>で</mark> 切手<mark>を</mark> 買います",
+    "romaji": "yuubinkyokude kittewo kaimasu",
+    "particles": [
+      "で",
+      "を"
+    ]
+  },
+  {
+    "ja": "この本は おもしろいです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "この<ruby>本<rt>ほん</rt></ruby><mark>は</mark> おもしろいです",
+    "ja_html": "この本<mark>は</mark> おもしろいです",
+    "romaji": "konohonha omoshiroidesu",
+    "particles": [
+      "は"
+    ]
+  },
+  {
+    "ja": "水は 冷たいです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>水<rt>みず</rt></ruby><mark>は</mark> <ruby>冷<rt>つめ</rt></ruby>たいです",
+    "ja_html": "水<mark>は</mark> 冷たいです",
+    "romaji": "mizuha tsumetaidesu",
+    "particles": [
+      "は"
+    ]
+  },
+  {
+    "ja": "新しい くるまですね",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>新<rt>あたら</rt></ruby>しい くるまです<mark>ね</mark>",
+    "ja_html": "新しい くるまです<mark>ね</mark>",
+    "romaji": "atarashii kurumadesune",
+    "particles": [
+      "ね"
+    ]
+  },
+  {
+    "ja": "母は 主婦です",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>母<rt>はは</rt></ruby><mark>は</mark> <ruby>主婦<rt>しゅふ</rt></ruby>です",
+    "ja_html": "母<mark>は</mark> 主婦です",
+    "romaji": "hahaha shufudesu",
+    "particles": [
+      "は"
+    ]
+  },
+  {
+    "ja": "ここで くつを ぬいでください",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "ここ<mark>で</mark> くつ<mark>を</mark> ぬいでください",
+    "ja_html": "ここ<mark>で</mark> くつ<mark>を</mark> ぬいでください",
+    "romaji": "kokode kutsuwo nuidekudasai",
+    "particles": [
+      "で",
+      "を"
+    ]
+  },
+  {
+    "ja": "こうえんに いぬが います",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "こうえん<mark>に</mark> いぬ<mark>が</mark> います",
+    "ja_html": "こうえん<mark>に</mark> いぬ<mark>が</mark> います",
+    "romaji": "kouenni inuga imasu",
+    "particles": [
+      "に",
+      "が"
+    ]
+  },
+  {
+    "ja": "これは ふくろに 入れて ください",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "これ<mark>は</mark> ふくろ<mark>に</mark> <ruby>入<rt>い</rt></ruby>れて ください",
+    "ja_html": "これ<mark>は</mark> ふくろ<mark>に</mark> 入れて ください",
+    "romaji": "koreha fukuroni irete kudasai",
+    "particles": [
+      "は",
+      "に"
+    ]
+  },
+  {
+    "ja": "本を 読みます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>本<rt>ほん</rt></ruby><mark>を</mark> <ruby>読<rt>よ</rt></ruby>みます",
+    "ja_html": "本<mark>を</mark> 読みます",
+    "romaji": "honwo yomimasu",
+    "particles": [
+      "を"
+    ]
+  },
+  {
+    "ja": "車が いちばん ほしいです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>車<rt>くるま</rt></ruby><mark>が</mark> いちばん ほしいです",
+    "ja_html": "車<mark>が</mark> いちばん ほしいです",
+    "romaji": "kurumaga ichiban hoshiidesu",
+    "particles": [
+      "が"
+    ]
+  },
+  {
+    "ja": "犬が ほしいですか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>犬<rt>いぬ</rt></ruby><mark>が</mark> ほしいです<mark>か</mark>",
+    "ja_html": "犬<mark>が</mark> ほしいです<mark>か</mark>",
+    "romaji": "inuga hoshiidesuka",
+    "particles": [
+      "が",
+      "か"
+    ]
+  },
+  {
+    "ja": "明日 ひまですか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>明日<rt>あした</rt></ruby> ひまです<mark>か</mark>",
+    "ja_html": "明日 ひまです<mark>か</mark>",
+    "romaji": "ashita himadesuka",
+    "particles": [
+      "か"
+    ]
+  },
+  {
+    "ja": "左がわに ありますよ",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>左<rt>ひだり</rt></ruby>がわ<mark>に</mark> あります<mark>よ</mark>",
+    "ja_html": "左がわ<mark>に</mark> あります<mark>よ</mark>",
+    "romaji": "hidarigawani arimasuyo",
+    "particles": [
+      "に",
+      "よ"
+    ]
+  },
+  {
+    "ja": "どうぞ ここに すわって ください",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "どうぞ ここ<mark>に</mark> すわって ください",
+    "ja_html": "どうぞ ここ<mark>に</mark> すわって ください",
+    "romaji": "douzo kokoni suwatte kudasai",
+    "particles": [
+      "に"
+    ]
+  },
+  {
+    "ja": "それは どこの シャツですか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "それ<mark>は</mark> どこ<mark>の</mark> シャツです<mark>か</mark>",
+    "ja_html": "それ<mark>は</mark> どこ<mark>の</mark> シャツです<mark>か</mark>",
+    "romaji": "soreha dokono shatsudesuka",
+    "particles": [
+      "は",
+      "の",
+      "か"
+    ]
+  },
+  {
+    "ja": "ゆうびんきょくは どこですか",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "ゆうびんきょく<mark>は</mark> どこです<mark>か</mark>",
+    "ja_html": "ゆうびんきょく<mark>は</mark> どこです<mark>か</mark>",
+    "romaji": "yuubinkyokuha dokodesuka",
+    "particles": [
+      "は",
+      "か"
+    ]
+  },
+  {
+    "ja": "明るい 人ですよ",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "<ruby>明<rt>あか</rt></ruby>るい <ruby>人<rt>ひと</rt></ruby>です<mark>よ</mark>",
+    "ja_html": "明るい 人です<mark>よ</mark>",
+    "romaji": "akarui hitodesuyo",
+    "particles": [
+      "よ"
+    ]
+  },
+  {
+    "ja": "お茶を 飲みます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "お<ruby>茶<rt>ちゃ</rt></ruby><mark>を</mark> <ruby>飲<rt>の</rt></ruby>みます",
+    "ja_html": "お茶<mark>を</mark> 飲みます",
+    "romaji": "ochawo nomimasu",
+    "particles": [
+      "を"
+    ]
+  },
+  {
+    "ja": "けしゴムを かして ください",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "けしゴム<mark>を</mark> かして ください",
+    "ja_html": "けしゴム<mark>を</mark> かして ください",
+    "romaji": "keshigomuwo kashite kudasai",
+    "particles": [
+      "を"
+    ]
+  },
+  {
+    "ja": "ふゆは さむいです",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "ふゆ<mark>は</mark> さむいです",
+    "ja_html": "ふゆ<mark>は</mark> さむいです",
+    "romaji": "fuyuha samuidesu",
+    "particles": [
+      "は"
+    ]
+  },
+  {
+    "ja": "ひとりで 行きます",
+    "category": "助詞",
+    "group": "助詞練習",
+    "furigana": "ひとり<mark>で</mark> <ruby>行<rt>い</rt></ruby>きます",
+    "ja_html": "ひとり<mark>で</mark> 行きます",
+    "romaji": "hitoride ikimasu",
+    "particles": [
+      "で"
+    ]
+  }
+]

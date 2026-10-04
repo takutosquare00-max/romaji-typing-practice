@@ -1,0 +1,562 @@
+[
+  {
+    "ja": "ええ そうですよ",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "ええ そうですよ",
+    "romaji": "ee soudesuyo"
+  },
+  {
+    "ja": "来週の 木曜日です",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>木曜日<rt>もくようび</rt></ruby>です",
+    "romaji": "raishuuno mokuyoubidesu"
+  },
+  {
+    "ja": "わあ きれいな ハンカチですね",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "わあ きれいな ハンカチですね",
+    "romaji": "waa kireina hankachidesune"
+  },
+  {
+    "ja": "夏休み どうしますか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>夏<rt>なつ</rt></ruby><ruby>休<rt>やす</rt></ruby>み どうしますか",
+    "romaji": "natsuyasumi doushimasuka"
+  },
+  {
+    "ja": "明るい 人ですよ",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>明<rt>あか</rt></ruby>るい <ruby>人<rt>ひと</rt></ruby>ですよ",
+    "romaji": "akarui hitodesuyo"
+  },
+  {
+    "ja": "今からカラオケに行きませんか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>今<rt>いま</rt></ruby>からカラオケに<ruby>行<rt>い</rt></ruby>きませんか",
+    "romaji": "imakarakaraokeniikimasenka"
+  },
+  {
+    "ja": "けしゴムを かして ください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "けしゴムを かして ください",
+    "romaji": "keshigomuwo kashite kudasai"
+  },
+  {
+    "ja": "テレビで サッカーを 見ます",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "テレビで サッカーを <ruby>見<rt>み</rt></ruby>ます",
+    "romaji": "terebide sakkaawo mimasu"
+  },
+  {
+    "ja": "日本語は むずかしいですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby><ruby>語<rt>ご</rt></ruby>は むずかしいですか",
+    "romaji": "nihongoha muzukashiidesuka"
+  },
+  {
+    "ja": "レポートを コピーします",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "レポートを コピーします",
+    "romaji": "repootowo kopiishimasu"
+  },
+  {
+    "ja": "それは どこの シャツですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "それは どこの シャツですか",
+    "romaji": "soreha dokono shatsudesuka"
+  },
+  {
+    "ja": "父と母はニューヨークにいます",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>父<rt>ちち</rt></ruby>と<ruby>母<rt>はは</rt></ruby>はニューヨークにいます",
+    "romaji": "chichitohahahanyuuyookuniimasu"
+  },
+  {
+    "ja": "このボールペン いいですね",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "このボールペン いいですね",
+    "romaji": "konoboorupen iidesune"
+  },
+  {
+    "ja": "北海道へ スキーに 行きました",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>北海道<rt>ほっかいどう</rt></ruby>へ スキーに <ruby>行<rt>い</rt></ruby>きました",
+    "romaji": "hokkaidouhe sukiini ikimashita"
+  },
+  {
+    "ja": "こちらで くつを ぬいで ください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "こちらで くつを ぬいで ください",
+    "romaji": "kochirade kutsuwo nuide kudasai"
+  },
+  {
+    "ja": "これはノートじゃありません",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "これはノートじゃありません",
+    "romaji": "korehanootojaarimasen"
+  },
+  {
+    "ja": "どうぞ よろしく おねがいします",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "どうぞ よろしく おねがいします",
+    "romaji": "douzo yoroshiku onegaishimasu"
+  },
+  {
+    "ja": "プレゼントですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "プレゼントですか",
+    "romaji": "purezentodesuka"
+  },
+  {
+    "ja": "車が いちばん ほしいです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>車<rt>くるま</rt></ruby>が いちばん ほしいです",
+    "romaji": "kurumaga ichiban hoshiidesu"
+  },
+  {
+    "ja": "コーヒーと ケーキ おねがいします",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "コーヒーと ケーキ おねがいします",
+    "romaji": "koohiito keeki onegaishimasu"
+  },
+  {
+    "ja": "タクシーで帰りませんか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "タクシーで<ruby>帰<rt>かえ</rt></ruby>りませんか",
+    "romaji": "takushiidekaerimasenka"
+  },
+  {
+    "ja": "今日は 午後から 雨に なります",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>今日<rt>きょう</rt></ruby>は <ruby>午後<rt>ごご</rt></ruby>から <ruby>雨<rt>あめ</rt></ruby>に なります",
+    "romaji": "kyouha gogokara ameni narimasu"
+  },
+  {
+    "ja": "メロンが好きです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "メロンが<ruby>好<rt>す</rt></ruby>きです",
+    "romaji": "merongasukidesu"
+  },
+  {
+    "ja": "右に行って 左ですね",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>右<rt>みぎ</rt></ruby>に<ruby>行<rt>い</rt></ruby>って <ruby>左<rt>ひだり</rt></ruby>ですね",
+    "romaji": "miginiitte hidaridesune"
+  },
+  {
+    "ja": "これは ふくろに 入れて ください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "これは ふくろに <ruby>入<rt>い</rt></ruby>れて ください",
+    "romaji": "koreha fukuroni irete kudasai"
+  },
+  {
+    "ja": "友だちと ゲームを します",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>友<rt>とも</rt></ruby>だちと ゲームを します",
+    "romaji": "tomodachito geemuwo shimasu"
+  },
+  {
+    "ja": "これ おみやげです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "これ おみやげです",
+    "romaji": "kore omiyagedesu"
+  },
+  {
+    "ja": "パンダも いますよ",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "パンダも いますよ",
+    "romaji": "pandamo imasuyo"
+  },
+  {
+    "ja": "ゆうびんきょくは どこですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "ゆうびんきょくは どこですか",
+    "romaji": "yuubinkyokuha dokodesuka"
+  },
+  {
+    "ja": "車の ざっしです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>車<rt>くるま</rt></ruby>の ざっしです",
+    "romaji": "kurumano zasshidesu"
+  },
+  {
+    "ja": "デパートで 何か 買いましたか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "デパートで <ruby>何<rt>なに</rt></ruby>か <ruby>買<rt>か</rt></ruby>いましたか",
+    "romaji": "depaatode nanika kaimashitaka"
+  },
+  {
+    "ja": "だいじょうぶです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "だいじょうぶです",
+    "romaji": "daijoubudesu"
+  },
+  {
+    "ja": "この 道を まっすぐ 行って ください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "この <ruby>道<rt>みち</rt></ruby>を まっすぐ <ruby>行<rt>い</rt></ruby>って ください",
+    "romaji": "kono michiwo massugu itte kudasai"
+  },
+  {
+    "ja": "土曜日 テニスを しませんか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>土曜日<rt>どようび</rt></ruby> テニスを しませんか",
+    "romaji": "doyoubi tenisuwo shimasenka"
+  },
+  {
+    "ja": "はい ぜひ 行きたいです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "はい ぜひ <ruby>行<rt>い</rt></ruby>きたいです",
+    "romaji": "hai zehi ikitaidesu"
+  },
+  {
+    "ja": "あの レストランで 食べましょう",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "あの レストランで <ruby>食<rt>た</rt></ruby>べましょう",
+    "romaji": "ano resutorande tabemashou"
+  },
+  {
+    "ja": "毎日 さんぽしますか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>毎日<rt>まいにち</rt></ruby> さんぽしますか",
+    "romaji": "mainichi sanposhimasuka"
+  },
+  {
+    "ja": "バスで行きます",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "バスで<ruby>行<rt>い</rt></ruby>きます",
+    "romaji": "basudeikimasu"
+  },
+  {
+    "ja": "ボールペンはどこですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "ボールペンはどこですか",
+    "romaji": "boorupenhadokodesuka"
+  },
+  {
+    "ja": "学校の まえの コンビニです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>学校<rt>がっこう</rt></ruby>の まえの コンビニです",
+    "romaji": "gakkouno maeno konbinidesu"
+  },
+  {
+    "ja": "はい カラオケに行ってください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "はい カラオケに<ruby>行<rt>い</rt></ruby>ってください",
+    "romaji": "hai karaokeniittekudasai"
+  },
+  {
+    "ja": "この 川は 水が きれいですね",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "この <ruby>川<rt>かわ</rt></ruby>は <ruby>水<rt>みず</rt></ruby>が きれいですね",
+    "romaji": "kono kawaha mizuga kireidesune"
+  },
+  {
+    "ja": "昼ご飯を 食べます",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます",
+    "romaji": "hirugohanwo tabemasu"
+  },
+  {
+    "ja": "つくえの 上に 本が あります",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "つくえの <ruby>上<rt>うえ</rt></ruby>に <ruby>本<rt>ほん</rt></ruby>が あります",
+    "romaji": "tsukueno ueni honga arimasu"
+  },
+  {
+    "ja": "スポーツが 好きですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "スポーツが <ruby>好<rt>す</rt></ruby>きですか",
+    "romaji": "supootsuga sukidesuka"
+  },
+  {
+    "ja": "タクシーで来ましたか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "タクシーで<ruby>来<rt>き</rt></ruby>ましたか",
+    "romaji": "takushiidekimashitaka"
+  },
+  {
+    "ja": "このパン 買ってください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "このパン <ruby>買<rt>か</rt></ruby>ってください",
+    "romaji": "konopan kattekudasai"
+  },
+  {
+    "ja": "どうもありがとうございます",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "どうもありがとうございます",
+    "romaji": "doumoarigatougozaimasu"
+  },
+  {
+    "ja": "どうぞ ここに すわって ください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "どうぞ ここに すわって ください",
+    "romaji": "douzo kokoni suwatte kudasai"
+  },
+  {
+    "ja": "カメラは どこに ありますか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "カメラは どこに ありますか",
+    "romaji": "kameraha dokoni arimasuka"
+  },
+  {
+    "ja": "にぎやかな 町です",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "にぎやかな <ruby>町<rt>まち</rt></ruby>です",
+    "romaji": "nigiyakana machidesu"
+  },
+  {
+    "ja": "友だちの足をふみました",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>友<rt>とも</rt></ruby>だちの<ruby>足<rt>あし</rt></ruby>をふみました",
+    "romaji": "tomodachinoashiwofumimashita"
+  },
+  {
+    "ja": "あの 人は 目が 大きいです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "あの <ruby>人<rt>ひと</rt></ruby>は <ruby>目<rt>め</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きいです",
+    "romaji": "ano hitoha mega ookiidesu"
+  },
+  {
+    "ja": "きのう テレビを 見ましたか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "きのう テレビを <ruby>見<rt>み</rt></ruby>ましたか",
+    "romaji": "kinou terebiwo mimashitaka"
+  },
+  {
+    "ja": "家へ 帰ります",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>家<rt>いえ</rt></ruby>へ <ruby>帰<rt>かえ</rt></ruby>ります",
+    "romaji": "iehe kaerimasu"
+  },
+  {
+    "ja": "コーヒー 飲みますか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "コーヒー <ruby>飲<rt>の</rt></ruby>みますか",
+    "romaji": "koohii nomimasuka"
+  },
+  {
+    "ja": "本と ノートを 買いました",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>本<rt>ほん</rt></ruby>と ノートを <ruby>買<rt>か</rt></ruby>いました",
+    "romaji": "honto nootowo kaimashita"
+  },
+  {
+    "ja": "男の 人と サッカーを します",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>男<rt>おとこ</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>と サッカーを します",
+    "romaji": "otokono hitoto sakkaawo shimasu"
+  },
+  {
+    "ja": "もっと ゆっくり 話して ください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "もっと ゆっくり <ruby>話<rt>はな</rt></ruby>して ください",
+    "romaji": "motto yukkuri hanashite kudasai"
+  },
+  {
+    "ja": "あの 学生は いつも おそく 来ます",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "あの <ruby>学生<rt>がくせい</rt></ruby>は いつも おそく <ruby>来<rt>き</rt></ruby>ます",
+    "romaji": "ano gakuseiha itsumo osoku kimasu"
+  },
+  {
+    "ja": "犬が ほしいですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>犬<rt>いぬ</rt></ruby>が ほしいですか",
+    "romaji": "inuga hoshiidesuka"
+  },
+  {
+    "ja": "おもしろい ところですよ",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "おもしろい ところですよ",
+    "romaji": "omoshiroi tokorodesuyo"
+  },
+  {
+    "ja": "晩ご飯は 何を 食べましたか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか",
+    "romaji": "bangohanha naniwo tabemashitaka"
+  },
+  {
+    "ja": "じゃあ そうじ おねがいします",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "じゃあ そうじ おねがいします",
+    "romaji": "jaa souji onegaishimasu"
+  },
+  {
+    "ja": "このシャツをください",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "このシャツをください",
+    "romaji": "konoshatsuwokudasai"
+  },
+  {
+    "ja": "あのビルのとなりですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "あのビルのとなりですか",
+    "romaji": "anobirunotonaridesuka"
+  },
+  {
+    "ja": "テストは いつですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "テストは いつですか",
+    "romaji": "tesutoha itsudesuka"
+  },
+  {
+    "ja": "この ケーキは とても 高いですね",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "この ケーキは とても <ruby>高<rt>たか</rt></ruby>いですね",
+    "romaji": "kono keekiha totemo takaidesune"
+  },
+  {
+    "ja": "日本の カメラは 高いですか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>日本<rt>にほん</rt></ruby>の カメラは <ruby>高<rt>たか</rt></ruby>いですか",
+    "romaji": "nihonno kameraha takaidesuka"
+  },
+  {
+    "ja": "おはようございます",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "おはようございます",
+    "romaji": "ohayougozaimasu"
+  },
+  {
+    "ja": "あの道を右ですね",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "あの<ruby>道<rt>みち</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>ですね",
+    "romaji": "anomichiwomigidesune"
+  },
+  {
+    "ja": "スキーは どうでしたか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "スキーは どうでしたか",
+    "romaji": "sukiiha doudeshitaka"
+  },
+  {
+    "ja": "空が とても きれいです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>空<rt>そら</rt></ruby>が とても きれいです",
+    "romaji": "soraga totemo kireidesu"
+  },
+  {
+    "ja": "朝 パンを 食べますか",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>朝<rt>あさ</rt></ruby> パンを <ruby>食<rt>た</rt></ruby>べますか",
+    "romaji": "asa panwo tabemasuka"
+  },
+  {
+    "ja": "いいえ 休みじゃありません",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "いいえ <ruby>休<rt>やす</rt></ruby>みじゃありません",
+    "romaji": "iie yasumijaarimasen"
+  },
+  {
+    "ja": "はい 雨でした",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "はい <ruby>雨<rt>あめ</rt></ruby>でした",
+    "romaji": "hai amedeshita"
+  },
+  {
+    "ja": "じゃあ 海へ行きましょう",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "じゃあ <ruby>海<rt>うみ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きましょう",
+    "romaji": "jaa umiheikimashou"
+  },
+  {
+    "ja": "左がわにありますよ",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "<ruby>左<rt>ひだり</rt></ruby>がわにありますよ",
+    "romaji": "hidarigawaniarimasuyo"
+  },
+  {
+    "ja": "もっと 上手に なりたいです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "もっと <ruby>上手<rt>じょうず</rt></ruby>に なりたいです",
+    "romaji": "motto jouzuni naritaidesu"
+  },
+  {
+    "ja": "あの 白い かばんです",
+    "category": "かな均等80",
+    "group": "try! JLPT N5 本文",
+    "furigana": "あの <ruby>白<rt>しろ</rt></ruby>い かばんです",
+    "romaji": "ano shiroi kabandesu"
+  }
+]
