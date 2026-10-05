@@ -338,7 +338,7 @@
         <div class="mode-toggle-options">
           <label><input type="radio" name="furiganaMode" value="on" checked> ふりがなあり</label>
           <label><input type="radio" name="furiganaMode" value="off"> ふりがななし</label>
-          <label><input type="radio" name="furiganaMode" value="particle"> 助詞</label>
+          <label><input type="checkbox" id="particleMode"> 助詞</label>
         </div>
         <div class="stats-actions">
           <span class="stats-inline"><ruby>正解<rt>せいかい</rt></ruby>: <span id="correctCount">0</span>/<span id="totalCount">0</span></span>
@@ -568,21 +568,29 @@
       }
 
       var MODE_STORAGE_KEY = 'romajiTyping.displayMode';
-      // 「助詞」= ふりがななしで助詞を空欄にした穴埋め
+      var particleToggle = document.getElementById('particleMode');
+      // 「助詞」はふりがなあり／なしと組み合わせて使う（オンで助詞を空欄にした穴埋め）
       function isParticleOn() {
-        var r = document.querySelector('input[name="furiganaMode"]:checked');
-        return !!(r && r.value === 'particle');
+        return !!(particleToggle && particleToggle.checked);
       }
       function restoreDisplayMode() {
         var saved = null;
         try { saved = localStorage.getItem(MODE_STORAGE_KEY); } catch (e) {}
         if (!saved) return;
-        var r = document.querySelector('input[name="furiganaMode"][value="' + saved + '"]');
+        var mode = null;
+        try { mode = JSON.parse(saved); } catch (e) {}
+        if (!mode || typeof mode !== 'object') {
+          // 旧形式（'on' / 'off' / 'particle' の文字列）
+          mode = { furigana: saved === 'on', particle: saved === 'particle' };
+        }
+        var r = document.querySelector('input[name="furiganaMode"][value="' + (mode.furigana ? 'on' : 'off') + '"]');
         if (r) r.checked = true;
+        if (particleToggle) particleToggle.checked = !!mode.particle;
       }
       function saveDisplayMode() {
-        var r = document.querySelector('input[name="furiganaMode"]:checked');
-        try { if (r) localStorage.setItem(MODE_STORAGE_KEY, r.value); } catch (e) {}
+        try {
+          localStorage.setItem(MODE_STORAGE_KEY, JSON.stringify({ furigana: isFuriganaOn(), particle: isParticleOn() }));
+        } catch (e) {}
       }
 
       function loadSentences() {
@@ -966,6 +974,9 @@
       var modeRadios = document.querySelectorAll('input[name="furiganaMode"]');
       for (var i = 0; i < modeRadios.length; i++) {
         modeRadios[i].addEventListener('change', function() { saveDisplayMode(); showCurrent(); });
+      }
+      if (particleToggle) {
+        particleToggle.addEventListener('change', function() { saveDisplayMode(); showCurrent(); });
       }
 
       restoreDisplayMode();
