@@ -705,6 +705,61 @@
         'てぃ': ['thi']
       };
 
+      // 日本語キーボード（かな漢字変換オン・全角英数・かな入力）で入った文字をローマ字に直す。
+      // 変換途中の「わたs」のような、かなと英字が混ざった状態もそのまま扱える。
+      var KANA_EXTRA_ROMAJI = {
+        'ふぁ': 'fa', 'ふぃ': 'fi', 'ふぇ': 'fe', 'ふぉ': 'fo',
+        'うぃ': 'wi', 'うぇ': 'we', 'うぉ': 'who',
+        'しぇ': 'she', 'ちぇ': 'che', 'じぇ': 'je',
+        'でぃ': 'dhi', 'でゅ': 'dhu', 'てゅ': 'thu',
+        'ぢゃ': 'zya', 'ぢゅ': 'zyu', 'ぢょ': 'zyo'
+      };
+      var KANA_PARTICLE_ALT = { 'は': 'wa', 'へ': 'e', 'を': 'o' };
+      var KANA_VOWEL = { 'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o' };
+      var KANA_IGNORED = /[\s、。・「」！？!?,.'ゃゅょゎ]/;
+      function kanaInputToRomaji(raw, expected) {
+        var src = String(raw || '');
+        if (src.normalize) src = src.normalize('NFKC');
+        src = kataToHira(src).toLowerCase();
+        var out = '';
+        var ok = true;
+        var sokuon = false;
+        function emit(r) {
+          if (sokuon && /^[a-z]/.test(r) && !/^[aiueon]/.test(r)) out += r[0];
+          sokuon = false;
+          out += r;
+        }
+        function expectedAt(len) {
+          if (!expected) return '';
+          var pos = getExpectedPos(normalizeForCompare(out), expected);
+          return expected.slice(pos, pos + len);
+        }
+        for (var i = 0; i < src.length; i++) {
+          var ch = src[i];
+          if (ch === 'っ') { sokuon = true; continue; }
+          var pair = src.slice(i, i + 2);
+          var r = KANA_EXTRA_ROMAJI[pair] || (YOON_ROMAJI[pair] && YOON_ROMAJI[pair][0]);
+          if (r) { emit(r); i++; continue; }
+          if (ch === 'ん') {
+            // 画面どおり「konni」と打つと変換では「こんい」になるので、その場合は nn として読む
+            var v = KANA_VOWEL[src[i + 1]];
+            emit(v && expectedAt(3) === 'nn' + v ? 'nn' : 'n');
+            continue;
+          }
+          if (KANA_ROMAJI[ch]) {
+            r = KANA_ROMAJI[ch][0];
+            var alt = KANA_PARTICLE_ALT[ch];
+            if (alt && expectedAt(r.length) !== r && expectedAt(alt.length) === alt) r = alt;
+            emit(r);
+            continue;
+          }
+          if (/[a-z0-9\-ー]/.test(ch)) { emit(ch); continue; }
+          if (ch.charCodeAt(0) < 0x80 || KANA_IGNORED.test(ch)) continue;
+          ok = false;
+        }
+        return { romaji: out, ok: ok };
+      }
+
       function displayCharsByNorm(displayStr) {
         return String(displayStr || '').replace(/\s/g, '').split('');
       }
@@ -806,7 +861,7 @@
       function updateRomajiDisplay() {
         var s = getCurrent();
         if (!s || !s._display) return;
-        var userTyped = normalizeForCompare(typingInput.value);
+        var userTyped = typedNorm;
         var expected = s._norm;
         var displayStr = s._display;
         var expectedPos = getExpectedPos(userTyped, expected);
@@ -857,7 +912,7 @@
           display.innerHTML = '<span class="sentence-inner">' + escapeHtml(s.ja) + '</span>';
         }
         romajiDisplay.innerHTML = buildRomajiSpans(s._display);
-        typingInput.value = '';
+        resetTyped();
         feedback.className = 'feedback';
         feedback.textContent = '';
         updateRomajiDisplay();
@@ -882,6 +937,31 @@
         }
       }
 
+      var typedNorm = '';
+      var lastGoodRaw = '';
+      var lastKeyChar = null;
+      var ignoreInput = false;
+      function resetTyped() {
+        typingInput.value = '';
+        typedNorm = '';
+        lastGoodRaw = '';
+        lastKeyChar = null;
+      }
+      function readTyped(s, e) {
+        var conv = kanaInputToRomaji(typingInput.value, s._norm);
+        if (!conv.ok) {
+          // 漢字に変換された（ライブ変換・スペース変換）ときは、変換前のかな＋今打ったキーに戻す
+          var raw = lastGoodRaw;
+          if (e && /^delete/.test(e.inputType || '')) raw = raw.slice(0, -1);
+          else if (e && e.type === 'input' && lastKeyChar) raw += lastKeyChar;
+          typingInput.value = raw;
+          conv = kanaInputToRomaji(raw, s._norm);
+        }
+        lastKeyChar = null;
+        lastGoodRaw = typingInput.value;
+        return normalizeForCompare(conv.romaji);
+      }
+
       var advancing = false;
       function advanceToNext() {
         advancing = false;
@@ -898,27 +978,34 @@
         updateRomajiDisplay();
       }
 
-      function onTypingInput() {
+      function onTypingInput(e) {
         var s = getCurrent();
-        if (!s || advancing) return;
-        var userTyped = normalizeForCompare(typingInput.value);
+        if (!s || advancing || ignoreInput) return;
+        var userTyped = typedNorm = readTyped(s, e);
         var expected = s._norm;
         var expectedPos = getExpectedPos(userTyped, expected);
 
-        if (userTyped === expected) {
+        if (userTyped === expected || expectedPos >= expected.length) {
           answeredCount++;
-          correctCount++;
-          waitForNextKey();
-          return;
-        }
-
-        if (expectedPos >= expected.length) {
-          answeredCount++;
+          if (userTyped === expected) correctCount++;
+          // 変換途中の文字が次の問題に持ち越されないよう、入力欄を空にして変換を打ち切る
+          typingInput.value = '';
+          lastGoodRaw = '';
           waitForNextKey();
           return;
         }
 
         updateRomajiDisplay();
+      }
+
+      // 変換中でも物理キーから打った英字を取り出す（漢字に変換されたときの復元用）
+      function keyCharOf(e) {
+        if (e.ctrlKey || e.metaKey || e.altKey) return null;
+        if (e.key && e.key.length === 1 && /[a-zA-Z0-9\-]/.test(e.key)) return e.key.toLowerCase();
+        var m = /^Key([A-Z])$/.exec(e.code || '');
+        if (m) return m[1].toLowerCase();
+        if (e.code === 'Minus') return '-';
+        return null;
       }
 
       function skip() {
@@ -941,19 +1028,27 @@
           typingInput.focus();
         });
       }
-      typingInput.addEventListener('input', function(e) {
-        if (e.isComposing) return;
-        onTypingInput();
-      });
+      // 日本語キーボードでは変換途中（isComposing）の文字もその場でローマ字に直して判定する
+      typingInput.addEventListener('input', onTypingInput);
       typingInput.addEventListener('compositionend', onTypingInput);
       typingInput.addEventListener('paste', function(e) { e.preventDefault(); });
       typingInput.addEventListener('keydown', function(e) {
-        if (e.isComposing) return;
+        lastKeyChar = keyCharOf(e);
         if (advancing && (e.code === 'Enter' || e.code === 'Space')) {
           e.preventDefault();
+          if (e.isComposing) {
+            // このキーで確定される変換中の文字を、次の問題の入力として拾わない
+            ignoreInput = true;
+            setTimeout(function() {
+              ignoreInput = false;
+              resetTyped();
+              updateRomajiDisplay();
+            }, 0);
+          }
           advanceToNext();
           return;
         }
+        if (e.isComposing) return;
         if (e.code === 'Enter') {
           e.preventDefault();
           skip();
