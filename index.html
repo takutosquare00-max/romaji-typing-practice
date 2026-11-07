@@ -73,8 +73,15 @@
       width: 100%;
       box-sizing: border-box;
       font-weight: 400;
+      /* ピンチズーム中（小数倍率）は再描画範囲が丸められ、前の問題の文字の下端が点線状に残る。
+         不透明の背景を持たせ、問題切替時に背景色を切り替えて枠全体を塗り直させる（showCurrent） */
+      background-color: #000;
     }
+    .sentence-display.repaint-alt { background-color: #000001; }
     .sentence-display .sentence-inner {
+      /* 文字のはみ出し（下端）が再描画範囲の端に掛からないよう余白を持たせる */
+      display: inline-block;
+      padding: 0.2em 0.15em;
       max-width: 100%;
       text-align: center;
       word-wrap: break-word;
@@ -904,6 +911,7 @@
         if (!s) { showResult(); return; }
         display.classList.remove('revealed');
         display.classList.toggle('particle-quiz', isParticleOn());
+        display.classList.toggle('repaint-alt');
         if (isFuriganaOn() && s.furigana) {
           display.innerHTML = '<span class="sentence-inner">' + s.furigana + '</span>';
         } else if (s.markedPlain) {
